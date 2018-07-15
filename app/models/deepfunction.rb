@@ -1,0 +1,2 @@
+class Deepfunction < ApplicationRecord
+end

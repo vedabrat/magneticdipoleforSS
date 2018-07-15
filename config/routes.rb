@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get 'like/_likebutton'
+  get 'deepfunction/_deepfunctionform'
+  get 'comment/_commentsform'
+  get 'function/_functionform'
+  get 'design/_designform'
   root 'welcome#home'
 
   get 'welcome/home'
